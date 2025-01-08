@@ -7,20 +7,40 @@
     </head>
     <body>
         <div class="container">
-            <h1>E-LogBook</h1>
-            <h3>Here, you need your details below :-</h3>
+            <div>
+                <h1>E-LogBook</h1>
+                <h3>Here, you need your details below :-</h3>
+            </div>
+            <div class="subdiv">
+                <form id="logData">
+                    <h3>Fill the form :</h3>
+                    <label for="name">Name :-</label>
+                    <input type="text" name="name" id="name"> <br>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email"> <br>
+                    <label for="reason">Reason :-</label>
+                    <input type="text" name="reason" id="reason"> <br>
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label> <br>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label> <br>
+                    
+                    <input type="submit">
+                    <input type="reset">
+                </form>
+            </div>
+            <div class="subdiv">
+                <table id="dataTable">
+                    <caption>Logged Data</caption>
+                    <tr>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Reason</th>
+                        <th>Gender</th>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div class="container">
-            <form action=""></form>
-        </div>
-        <div class="container">
-            <table id="data-table">
-                <tr>
-                    <th><h2>Name</h2></th>
-                    <th><h2>Phone Number</h2></th>
-                    <th><h2>E-mail</h2></th>
-                </tr>
-            </table>
-        </div>
+        <script src="index.js"></script>
     </body>
 </html>
