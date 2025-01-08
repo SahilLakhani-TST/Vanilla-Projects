@@ -36,11 +36,16 @@ const submit = (event) => {
     for(let i=0; i<genderInputs.length; i++) {
         if(genderInputs[i].checked) {
             gender = genderInputs[i].value;
+            genderInputs[i].checked = false;
         }
     }
 
     fillData(name, email, reason, gender);
     alert("Form Submitted!");
+
+    nameInput.value = ""
+    emailInput.value = ""
+    reasonInput.value = ""
 }
 
 logData.addEventListener("submit", submit);
