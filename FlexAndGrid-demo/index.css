@@ -1,0 +1,47 @@
+body {
+    color: black;
+    background-color: cadetblue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.flex-item, .grid-item {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+    background-color: cyan;
+    width: 30%;
+    border: medium double red;
+}
+
+.title {
+    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+.subtitle {
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+
+.text {
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
