@@ -53,6 +53,7 @@ body {
 .text {
     font-size: 1.2vw;
     color: black;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
